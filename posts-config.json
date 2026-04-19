@@ -1,0 +1,684 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-04-19",
+  "timezone": "America/Los_Angeles",
+  "posts": [
+    {
+      "id": "provider-netflix",
+      "keyword": "what to watch on netflix",
+      "mediaType": "carousel",
+      "theme": "Trending on Netflix",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "sunday 19:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "netflix",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "netflix",
+        "netflixrecommendations",
+        "whattowatch",
+        "trending",
+        "movienight",
+        "tvshows"
+      ],
+      "lastPosted": "2026-04-19T22:56:46.287Z",
+      "lastMovieIds": [
+        "tt14403178",
+        "tt36957934",
+        "tt37540875",
+        "tt32362890",
+        "tt32141377"
+      ]
+    },
+    {
+      "id": "netflix-reel",
+      "keyword": "netflix movies to watch",
+      "mediaType": "reel",
+      "theme": "STOP scrolling Netflix",
+      "ctaText": "Follow @wattawatch",
+      "provider": "netflix",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "sunday 20:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "netflix",
+          "enabled": true,
+          "type": "movie",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "netflix",
+        "movierecommendations",
+        "whattowatch",
+        "movienight",
+        "reels"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "disney-family",
+      "keyword": "family movies on disney plus",
+      "mediaType": "carousel",
+      "theme": "Family Favorites on Disney+",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "sunday 10:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "disney",
+          "enabled": true,
+          "parentalGuide.categories.nudity": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "parentalGuide.categories.violence": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "parentalGuide.categories.frightening": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "rating": {
+            "$gte": 6
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "disneyplus",
+        "familymovies",
+        "disney",
+        "kidsshows",
+        "animation",
+        "movienight"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-paramount",
+      "keyword": "what to watch on paramount plus",
+      "mediaType": "carousel",
+      "theme": "Trending on Paramount+",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "monday 13:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "paramount+",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "paramountplus",
+        "paramount",
+        "whattowatch",
+        "streaming",
+        "tvshows",
+        "movies"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-disney",
+      "keyword": "what to watch on disney plus",
+      "mediaType": "carousel",
+      "theme": "Trending on Disney+",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "tuesday 14:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "disney",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "disneyplus",
+        "disney",
+        "whattowatch",
+        "streaming",
+        "familymovies",
+        "tvshows"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-max",
+      "keyword": "what to watch on max",
+      "mediaType": "carousel",
+      "theme": "Trending on Max",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "wednesday 15:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "hbomax",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "max",
+        "hbomax",
+        "whattowatch",
+        "streaming",
+        "hbo",
+        "movies"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "trending-all",
+      "keyword": "whats trending right now",
+      "mediaType": "carousel",
+      "theme": "Trending This Week",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "wednesday 12:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "trending",
+        "trendingmovies",
+        "trendingshows",
+        "mustwatch",
+        "binge",
+        "streaming"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "hidden-gems-reel",
+      "keyword": "hidden gem movies",
+      "mediaType": "reel",
+      "theme": "Netflix hides these movies",
+      "ctaText": "More picks at wattawatch.com",
+      "provider": "netflix",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "wednesday 19:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "netflix",
+          "enabled": true,
+          "type": "movie",
+          "rating": {
+            "$gte": 7
+          }
+        },
+        "sort": {
+          "rating": -1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "hiddengems",
+        "underratedmovies",
+        "netflix",
+        "movienight",
+        "mustwatch"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-hulu",
+      "keyword": "what to watch on hulu",
+      "mediaType": "carousel",
+      "theme": "Trending on Hulu",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "thursday 16:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "hulu",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "hulu",
+        "hulurecommendations",
+        "whattowatch",
+        "streaming",
+        "tvshows",
+        "movies"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "trending-tv",
+      "keyword": "trending tv shows",
+      "mediaType": "carousel",
+      "theme": "Popular TV Shows",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "thursday 12:00",
+      "query": {
+        "filter": {
+          "type": "tvSeries",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "tvshows",
+        "binge",
+        "tvseries",
+        "trending",
+        "mustwatch",
+        "showstowatch"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "binge-worthy-reel",
+      "keyword": "binge worthy shows",
+      "mediaType": "reel",
+      "theme": "Shows you'll binge in one sitting",
+      "ctaText": "More picks at wattawatch.com",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "thursday 20:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "type": "tvSeries",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "bingeworthy",
+        "tvshows",
+        "streaming",
+        "mustwatch",
+        "showstowatch"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-prime",
+      "keyword": "what to watch on amazon prime",
+      "mediaType": "carousel",
+      "theme": "Trending on Prime Video",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "friday 17:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "pvs_piv",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "primevideo",
+        "amazonprime",
+        "whattowatch",
+        "streaming",
+        "tvshows",
+        "movies"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "trending-movies",
+      "keyword": "trending movies",
+      "mediaType": "carousel",
+      "theme": "Popular Movies",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "friday 12:00",
+      "query": {
+        "filter": {
+          "type": "movie",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "movies",
+        "movienight",
+        "trending",
+        "mustwatch",
+        "film",
+        "cinema"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "tonight-reel",
+      "keyword": "what to watch tonight",
+      "mediaType": "reel",
+      "theme": "What to watch tonight",
+      "ctaText": "Follow @wattawatch",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "friday 19:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "whattowatch",
+        "movienight",
+        "fridaynight",
+        "streaming",
+        "trending"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "family-friendly",
+      "keyword": "family friendly movies to watch",
+      "mediaType": "carousel",
+      "theme": "Family Friendly Picks",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "saturday 10:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "parentalGuide.categories.nudity": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "parentalGuide.categories.violence": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "parentalGuide.categories.language": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "parentalGuide.categories.frightening": {
+            "$in": [
+              "none",
+              "mild"
+            ]
+          },
+          "rating": {
+            "$gte": 6.5
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "familymovies",
+        "familyfriendly",
+        "kidsandparents",
+        "movienight",
+        "familytime",
+        "cleanmovies"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-appletv",
+      "keyword": "what to watch on apple tv plus",
+      "mediaType": "carousel",
+      "theme": "Trending on Apple TV+",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "saturday 12:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "appletv",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "appletvplus",
+        "appletv",
+        "whattowatch",
+        "streaming",
+        "originals",
+        "tvshows"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "weekend-binge",
+      "keyword": "shows to binge this weekend",
+      "mediaType": "carousel",
+      "theme": "Weekend Binge",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "saturday 15:00",
+      "query": {
+        "filter": {
+          "type": "tvSeries",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "weekendbinge",
+        "bingewatch",
+        "tvshows",
+        "streaming",
+        "mustwatch",
+        "weekend"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "provider-peacock",
+      "keyword": "what to watch on peacock",
+      "mediaType": "carousel",
+      "theme": "Trending on Peacock",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "saturday 18:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "peacock",
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "peacock",
+        "peacocktv",
+        "whattowatch",
+        "streaming",
+        "nbc",
+        "tvshows"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "trending-movies-reel",
+      "keyword": "trending movies this week",
+      "mediaType": "reel",
+      "theme": "Top 5 Movies You Must Watch",
+      "ctaText": "Follow @wattawatch",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "schedule": "saturday 18:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "type": "movie",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "trendingmovies",
+        "mustwatch",
+        "movierecommendations",
+        "viral",
+        "weekendvibes"
+      ],
+      "lastPosted": null
+    }
+  ]
+}

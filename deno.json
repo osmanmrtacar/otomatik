@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "cron": "deno run --allow-all social.ts --cron",
+    "schedule": "deno run --allow-all social.ts --schedule",
+    "list": "deno run --allow-all social.ts --list",
+    "preview": "deno run --allow-all social.ts --preview",
+    "dry-run": "deno run --allow-all social.ts --dry-run"
+  },
+  "imports": {
+    "@std/dotenv": "jsr:@std/dotenv@^0.224.0",
+    "openai": "npm:openai@^4.0.0",
+    "mongodb": "npm:mongodb@^6.0.0",
+    "@aws-sdk/client-s3": "npm:@aws-sdk/client-s3@^3.0.0"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}

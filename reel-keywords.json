@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-26",
+  "timezone": "America/Los_Angeles",
+  "reels": [
+    {
+      "id": "netflix-reel",
+      "keyword": "netflix movies to watch",
+      "hookText": "STOP scrolling Netflix",
+      "ctaText": "Follow @wattawatch",
+      "audioUrl": null,
+      "provider": "netflix",
+      "platforms": ["instagram", "tiktok"],
+      "schedule": "sunday 20:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "netflix",
+          "enabled": true,
+          "type": "movie",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "netflix",
+        "movierecommendations",
+        "whattowatch",
+        "movienight",
+        "reels"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "hidden-gems-reel",
+      "keyword": "hidden gem movies",
+      "hookText": "Netflix hides these movies",
+      "ctaText": "More picks at wattawatch.com",
+      "audioUrl": null,
+      "provider": "netflix",
+      "platforms": ["instagram", "tiktok"],
+      "schedule": "wednesday 19:00",
+      "query": {
+        "filter": {
+          "providers.refTag": "netflix",
+          "enabled": true,
+          "type": "movie",
+          "rating": {
+            "$gte": 7
+          }
+        },
+        "sort": {
+          "rating": -1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "hiddengems",
+        "underratedmovies",
+        "netflix",
+        "movienight",
+        "mustwatch"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "tonight-reel",
+      "keyword": "what to watch tonight",
+      "hookText": "What to watch tonight",
+      "ctaText": "Follow @wattawatch",
+      "audioUrl": null,
+      "platforms": ["instagram", "tiktok"],
+      "schedule": "friday 19:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "whattowatch",
+        "movienight",
+        "fridaynight",
+        "streaming",
+        "trending"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "trending-movies-reel",
+      "keyword": "trending movies this week",
+      "hookText": "Top 5 Movies You Must Watch",
+      "ctaText": "Follow @wattawatch",
+      "audioUrl": null,
+      "platforms": ["instagram", "tiktok"],
+      "schedule": "saturday 18:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "type": "movie",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "trendingmovies",
+        "mustwatch",
+        "movierecommendations",
+        "viral",
+        "weekendvibes"
+      ],
+      "lastPosted": null
+    },
+    {
+      "id": "binge-worthy-reel",
+      "keyword": "binge worthy shows",
+      "hookText": "Shows you'll binge in one sitting",
+      "ctaText": "More picks at wattawatch.com",
+      "audioUrl": null,
+      "platforms": ["instagram", "tiktok"],
+      "schedule": "thursday 20:00",
+      "query": {
+        "filter": {
+          "enabled": true,
+          "type": "tvSeries",
+          "rankInfo.daysInTop10": {
+            "$ne": null
+          }
+        },
+        "sort": {
+          "rankInfo.rank": 1
+        },
+        "limit": 5
+      },
+      "hashtags": [
+        "bingeworthy",
+        "tvshows",
+        "streaming",
+        "mustwatch",
+        "showstowatch"
+      ],
+      "lastPosted": null
+    }
+  ]
+}

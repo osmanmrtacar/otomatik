@@ -8,4 +8,4 @@ RUN deno install --frozen
 
 COPY . .
 
-CMD ["run", "--allow-all", "social.ts", "--cron"]
+CMD ["run", "--allow-all", "health.ts"]

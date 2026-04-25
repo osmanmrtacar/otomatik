@@ -137,9 +137,15 @@ function contentChanged(post: PostConfig, newIds: string[]): boolean {
 
 // ─── Movie querying ───────────────────────────────────────────────────────────
 
+const BASE_FILTER = {
+  enabled: true,
+  "rankInfo.rank": { $gt: 0 },
+};
+
 async function queryMovies(q: QueryConfig): Promise<MovieRecord[]> {
+  const filter = { ...q.filter, ...BASE_FILTER };
   return (await movieDetailCollection
-    .find(JSON.parse(JSON.stringify(q.filter)))
+    .find(JSON.parse(JSON.stringify(filter)))
     // deno-lint-ignore no-explicit-any
     .sort(q.sort as any)
     .limit(q.limit)

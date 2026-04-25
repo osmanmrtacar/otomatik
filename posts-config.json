@@ -1,22 +1,20 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-04-25",
   "timezone": "America/Los_Angeles",
   "posts": [
     {
       "id": "provider-netflix",
-      "keyword": "what to watch on netflix",
+      "keyword": "whats trending on netflix right now",
       "mediaType": "carousel",
       "theme": "Trending on Netflix",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "sunday 19:00",
       "query": {
         "filter": {
           "providers.refTag": "netflix",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -27,12 +25,12 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "netflix",
-        "netflixrecommendations",
+        "netflixandchill",
         "whattowatch",
-        "trending",
-        "movienight",
-        "tvshows"
+        "trending"
       ],
       "lastPosted": "2026-04-19T22:56:46.287Z",
       "lastMovieIds": [
@@ -45,20 +43,18 @@
     },
     {
       "id": "netflix-reel",
-      "keyword": "netflix movies to watch",
+      "keyword": "best netflix movies to watch right now",
       "mediaType": "reel",
       "theme": "STOP scrolling Netflix",
       "ctaText": "Follow @wattawatch",
       "provider": "netflix",
       "platforms": [
-        "instagram",
-        "tiktok"
+        "instagram"
       ],
       "schedule": "sunday 20:00",
       "query": {
         "filter": {
           "providers.refTag": "netflix",
-          "enabled": true,
           "type": "movie",
           "rankInfo.daysInTop10": {
             "$ne": null
@@ -71,27 +67,39 @@
       },
       "hashtags": [
         "netflix",
+        "netflixmovies",
         "movierecommendations",
         "whattowatch",
         "movienight",
-        "reels"
+        "reels",
+        "instareels",
+        "explorepage",
+        "netflixandchill",
+        "mustwatch",
+        "movielovers",
+        "filmtok"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-20T03:02:41.824Z",
+      "lastMovieIds": [
+        "tt32141377",
+        "tt32362890",
+        "tt37540875",
+        "tt33244668",
+        "tt4645330"
+      ]
     },
     {
       "id": "disney-family",
-      "keyword": "family movies on disney plus",
+      "keyword": "best family movies on disney plus right now",
       "mediaType": "carousel",
       "theme": "Family Favorites on Disney+",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "sunday 10:00",
       "query": {
         "filter": {
           "providers.refTag": "disney",
-          "enabled": true,
           "parentalGuide.categories.nudity": {
             "$in": [
               "none",
@@ -120,29 +128,27 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "disneyplus",
         "familymovies",
-        "disney",
         "kidsshows",
-        "animation",
-        "movienight"
+        "familytime"
       ],
       "lastPosted": null
     },
     {
       "id": "provider-paramount",
-      "keyword": "what to watch on paramount plus",
+      "keyword": "whats trending on paramount plus right now",
       "mediaType": "carousel",
       "theme": "Trending on Paramount+",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "monday 13:00",
       "query": {
         "filter": {
           "providers.refTag": "paramount+",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -153,29 +159,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "paramountplus",
-        "paramount",
         "whattowatch",
         "streaming",
-        "tvshows",
-        "movies"
+        "tvshows"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-20T20:01:01.585Z",
+      "lastMovieIds": [
+        "tt14107334",
+        "tt0816692",
+        "tt33204276",
+        "tt11379026",
+        "tt9603208"
+      ]
     },
     {
       "id": "provider-disney",
-      "keyword": "what to watch on disney plus",
+      "keyword": "whats trending on disney plus right now",
       "mediaType": "carousel",
       "theme": "Trending on Disney+",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "tuesday 14:00",
       "query": {
         "filter": {
           "providers.refTag": "disney",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -186,29 +197,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "disneyplus",
         "disney",
         "whattowatch",
-        "streaming",
-        "familymovies",
-        "tvshows"
+        "streaming"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-21T21:00:57.135Z",
+      "lastMovieIds": [
+        "tt27444205",
+        "tt0458352",
+        "tt18923754",
+        "tt10872600",
+        "tt36594331"
+      ]
     },
     {
       "id": "provider-max",
-      "keyword": "what to watch on max",
+      "keyword": "whats trending on max right now",
       "mediaType": "carousel",
       "theme": "Trending on Max",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "wednesday 15:00",
       "query": {
         "filter": {
           "providers.refTag": "hbomax",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -219,28 +235,33 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "max",
         "hbomax",
         "whattowatch",
-        "streaming",
-        "hbo",
-        "movies"
+        "streaming"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-22T22:01:06.466Z",
+      "lastMovieIds": [
+        "tt8772296",
+        "tt0120791",
+        "tt31938062",
+        "tt23172090",
+        "tt0458352"
+      ]
     },
     {
       "id": "trending-all",
-      "keyword": "whats trending right now",
+      "keyword": "whats everyone watching right now",
       "mediaType": "carousel",
       "theme": "Trending This Week",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "wednesday 12:00",
       "query": {
         "filter": {
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -251,31 +272,36 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "trending",
         "trendingmovies",
-        "trendingshows",
         "mustwatch",
-        "binge",
         "streaming"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-22T19:01:07.473Z",
+      "lastMovieIds": [
+        "tt27543632",
+        "tt9813792",
+        "tt0120791",
+        "tt8772296",
+        "tt31938062"
+      ]
     },
     {
       "id": "hidden-gems-reel",
-      "keyword": "hidden gem movies",
+      "keyword": "hidden gem movies on netflix you havent seen",
       "mediaType": "reel",
       "theme": "Netflix hides these movies",
       "ctaText": "More picks at wattawatch.com",
       "provider": "netflix",
       "platforms": [
-        "instagram",
-        "tiktok"
+        "instagram"
       ],
       "schedule": "wednesday 19:00",
       "query": {
         "filter": {
           "providers.refTag": "netflix",
-          "enabled": true,
           "type": "movie",
           "rating": {
             "$gte": 7
@@ -291,24 +317,29 @@
         "underratedmovies",
         "netflix",
         "movienight",
-        "mustwatch"
+        "mustwatch",
+        "reels",
+        "explorepage",
+        "instareels",
+        "movierecommendations",
+        "filmlovers",
+        "netflixhiddengems",
+        "movielovers"
       ],
       "lastPosted": null
     },
     {
       "id": "provider-hulu",
-      "keyword": "what to watch on hulu",
+      "keyword": "whats trending on hulu right now",
       "mediaType": "carousel",
       "theme": "Trending on Hulu",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "thursday 16:00",
       "query": {
         "filter": {
           "providers.refTag": "hulu",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -319,29 +350,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "hulu",
-        "hulurecommendations",
         "whattowatch",
         "streaming",
-        "tvshows",
-        "movies"
+        "tvshows"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-23T23:01:35.225Z",
+      "lastMovieIds": [
+        "tt0458352",
+        "tt18923754",
+        "tt27552099",
+        "tt27444205",
+        "tt7587890"
+      ]
     },
     {
       "id": "trending-tv",
-      "keyword": "trending tv shows",
+      "keyword": "trending tv shows everyone is watching right now",
       "mediaType": "carousel",
       "theme": "Popular TV Shows",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "thursday 12:00",
       "query": {
         "filter": {
           "type": "tvSeries",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -352,29 +388,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "tvshows",
-        "binge",
-        "tvseries",
         "trending",
-        "mustwatch",
-        "showstowatch"
+        "binge",
+        "tvseries"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-23T19:01:06.812Z",
+      "lastMovieIds": [
+        "tt9813792",
+        "tt31137273",
+        "tt31938062",
+        "tt8772296",
+        "tt6741278"
+      ]
     },
     {
       "id": "binge-worthy-reel",
-      "keyword": "binge worthy shows",
+      "keyword": "binge worthy tv shows you cant stop watching",
       "mediaType": "reel",
       "theme": "Shows you'll binge in one sitting",
       "ctaText": "More picks at wattawatch.com",
       "platforms": [
-        "instagram",
-        "tiktok"
+        "instagram"
       ],
       "schedule": "thursday 20:00",
       "query": {
         "filter": {
-          "enabled": true,
           "type": "tvSeries",
           "rankInfo.daysInTop10": {
             "$ne": null
@@ -390,24 +431,29 @@
         "tvshows",
         "streaming",
         "mustwatch",
-        "showstowatch"
+        "reels",
+        "explorepage",
+        "instareels",
+        "bingewatching",
+        "showstowatch",
+        "tvseries",
+        "netflixshow",
+        "weekendvibes"
       ],
       "lastPosted": null
     },
     {
       "id": "provider-prime",
-      "keyword": "what to watch on amazon prime",
+      "keyword": "whats trending on amazon prime right now",
       "mediaType": "carousel",
       "theme": "Trending on Prime Video",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "friday 17:00",
       "query": {
         "filter": {
           "providers.refTag": "pvs_piv",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -418,29 +464,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "primevideo",
         "amazonprime",
         "whattowatch",
-        "streaming",
-        "tvshows",
-        "movies"
+        "streaming"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-25T00:01:42.435Z",
+      "lastMovieIds": [
+        "tt9813792",
+        "tt1190634",
+        "tt6741278",
+        "tt31137273",
+        "tt8647310"
+      ]
     },
     {
       "id": "trending-movies",
-      "keyword": "trending movies",
+      "keyword": "trending movies everyone is watching right now",
       "mediaType": "carousel",
       "theme": "Popular Movies",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "friday 12:00",
       "query": {
         "filter": {
           "type": "movie",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -451,29 +502,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "movies",
-        "movienight",
         "trending",
         "mustwatch",
-        "film",
-        "cinema"
+        "film"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-24T19:01:07.129Z",
+      "lastMovieIds": [
+        "tt27543632",
+        "tt0458352",
+        "tt0139239",
+        "tt2223990",
+        "tt8647310"
+      ]
     },
     {
       "id": "tonight-reel",
-      "keyword": "what to watch tonight",
+      "keyword": "best movies and shows to watch tonight",
       "mediaType": "reel",
       "theme": "What to watch tonight",
       "ctaText": "Follow @wattawatch",
       "platforms": [
-        "instagram",
-        "tiktok"
+        "instagram"
       ],
       "schedule": "friday 19:00",
       "query": {
         "filter": {
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -487,24 +543,29 @@
         "whattowatch",
         "movienight",
         "fridaynight",
+        "reels",
+        "explorepage",
+        "instareels",
         "streaming",
-        "trending"
+        "trending",
+        "movierecommendations",
+        "netflixandchill",
+        "bingeworthy",
+        "weekendvibes"
       ],
       "lastPosted": null
     },
     {
       "id": "family-friendly",
-      "keyword": "family friendly movies to watch",
+      "keyword": "best family friendly movies everyone can watch",
       "mediaType": "carousel",
       "theme": "Family Friendly Picks",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "saturday 10:00",
       "query": {
         "filter": {
-          "enabled": true,
           "parentalGuide.categories.nudity": {
             "$in": [
               "none",
@@ -539,29 +600,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "familymovies",
         "familyfriendly",
         "kidsandparents",
-        "movienight",
-        "familytime",
-        "cleanmovies"
+        "movienight"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-25T17:01:07.662Z",
+      "lastMovieIds": [
+        "tt0458352",
+        "tt14218830",
+        "tt11379026",
+        "tt27714581",
+        "tt26591147"
+      ]
     },
     {
       "id": "provider-appletv",
-      "keyword": "what to watch on apple tv plus",
+      "keyword": "whats trending on apple tv plus right now",
       "mediaType": "carousel",
       "theme": "Trending on Apple TV+",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
       "schedule": "saturday 12:00",
       "query": {
         "filter": {
           "providers.refTag": "appletv",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -572,29 +638,34 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "appletvplus",
         "appletv",
         "whattowatch",
-        "streaming",
-        "originals",
-        "tvshows"
+        "streaming"
       ],
-      "lastPosted": null
+      "lastPosted": "2026-04-25T19:01:28.627Z",
+      "lastMovieIds": [
+        "tt31137273",
+        "tt30459041",
+        "tt17220216",
+        "tt7772588",
+        "tt15677150"
+      ]
     },
     {
       "id": "weekend-binge",
-      "keyword": "shows to binge this weekend",
+      "keyword": "best shows to binge this weekend",
       "mediaType": "carousel",
       "theme": "Weekend Binge",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
-      "schedule": "saturday 15:00",
+      "schedule": "monday 18:00",
       "query": {
         "filter": {
           "type": "tvSeries",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -605,29 +676,27 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "weekendbinge",
-        "bingewatch",
         "tvshows",
-        "streaming",
-        "mustwatch",
+        "bingewatch",
         "weekend"
       ],
       "lastPosted": null
     },
     {
       "id": "provider-peacock",
-      "keyword": "what to watch on peacock",
+      "keyword": "whats trending on peacock right now",
       "mediaType": "carousel",
       "theme": "Trending on Peacock",
       "platforms": [
-        "instagram",
         "tiktok"
       ],
-      "schedule": "saturday 18:00",
+      "schedule": "tuesday 18:00",
       "query": {
         "filter": {
           "providers.refTag": "peacock",
-          "enabled": true,
           "rankInfo.daysInTop10": {
             "$ne": null
           }
@@ -638,29 +707,27 @@
         "limit": 5
       },
       "hashtags": [
+        "fyp",
+        "foryou",
         "peacock",
         "peacocktv",
         "whattowatch",
-        "streaming",
-        "nbc",
-        "tvshows"
+        "streaming"
       ],
       "lastPosted": null
     },
     {
       "id": "trending-movies-reel",
-      "keyword": "trending movies this week",
+      "keyword": "top trending movies you must watch this week",
       "mediaType": "reel",
       "theme": "Top 5 Movies You Must Watch",
       "ctaText": "Follow @wattawatch",
       "platforms": [
-        "instagram",
-        "tiktok"
+        "instagram"
       ],
       "schedule": "saturday 18:00",
       "query": {
         "filter": {
-          "enabled": true,
           "type": "movie",
           "rankInfo.daysInTop10": {
             "$ne": null
@@ -675,8 +742,15 @@
         "trendingmovies",
         "mustwatch",
         "movierecommendations",
+        "reels",
+        "explorepage",
+        "instareels",
         "viral",
-        "weekendvibes"
+        "weekendvibes",
+        "movielovers",
+        "film",
+        "movienight",
+        "cinematicshots"
       ],
       "lastPosted": null
     }

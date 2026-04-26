@@ -32,7 +32,9 @@ export async function uploadImage(
     return null;
   }
 
-  const key = `media/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+  const key = `media/${Date.now()}-${
+    Math.random().toString(36).slice(2)
+  }.${ext}`;
 
   try {
     await r2.send(
@@ -78,7 +80,8 @@ export async function loadConfig<T>(
 ): Promise<T> {
   try {
     return await loadFromR2<T>(r2Key);
-  } catch {
+  } catch (e) {
+    console.log(e);
     console.warn(`  R2 load failed for "${r2Key}", falling back to local file`);
     const content = await Deno.readTextFile(localFallback);
     return JSON.parse(content) as T;

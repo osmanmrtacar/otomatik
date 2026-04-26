@@ -11,6 +11,9 @@ const r2 = new S3Client({
     accessKeyId: Deno.env.get("R2_ACCESS_KEY_ID") || "",
     secretAccessKey: Deno.env.get("R2_SECRET_ACCESS_KEY") || "",
   },
+  // Deno's node:zlib CRC32 returns signed integers; skip auto checksum to avoid RangeError
+  requestChecksumCalculation: "WHEN_REQUIRED",
+  responseChecksumValidation: "WHEN_REQUIRED",
 });
 
 const BUCKET = Deno.env.get("R2_BUCKET") || "social-configs";
